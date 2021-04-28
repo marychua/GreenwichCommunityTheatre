@@ -1,0 +1,484 @@
+﻿
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image:url(Images/2479987.jpg);
+    /*background: linear-gradient(to bottom, #24252a 15%, #6600cc 74%);*/
+    /*background: linear-gradient(97deg, #201c1d, #6c369f);
+    background-size: 400% 400%;
+    animation: AnimationName 39s ease infinite;*/
+    /*background-image:url(Images/2479987.jpg);*/
+}
+
+    
+
+    li, a, button {
+    font-family:Bahnschrift,sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color:#edf0f1;
+    text-decoration:none;
+}
+header {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding:30px 10%;
+
+}
+
+.logo {
+    /*cursor:pointer;*/
+    order:3;
+    margin-left:auto;
+    
+    
+
+}
+
+nav {
+    order: 1;
+    
+}
+.nav_bar {
+    list-style: none;
+    azimuth: center-right;
+    
+}
+.nav_bar li{
+    display:inline-block;
+    padding:0px 20px;
+    
+}
+    .nav_bar li:nth-child(1) {
+       
+        padding: 0 20px 0 0;
+    }
+        .nav_bar li a {
+        transition: all 0.3s ease 0s;
+    }
+            .nav_bar li a:hover {
+                color: #7913d3;
+            }
+.cta{
+        order:2;
+    }
+.cta {
+    color: white;
+    padding: 9px;
+    background-color: #6846dd;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: Bahnschrift,sans-serif;
+}
+
+    .cta:hover {
+        background-color: #b200ff;
+    }
+
+
+    
+.auto-style1 {
+    margin-right: 0px;
+    background-color: #FFFFFF;
+}
+
+.auto-style2 {
+    width: 100%;
+}
+
+.auto-style3 {
+    text-align: center;
+    /*background-color: #FFFFCC;*/
+}
+.auto-style4 {
+    text-align: center;
+}
+
+.auto-style5 {
+    text-align: center;
+    height: 23px;
+    /*border: solid;
+    border-radius: 50px;*/
+    
+}
+
+.auto-style6 {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 135px;
+    /*background-color: #24252A;*/
+    background-color: #22262F;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: 'Nirmala UI';
+    font-weight: 600;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.auto-style7 {
+    left: 0px;
+    top: -63px;
+    /*border: solid;
+    border-radius: 50px;*/
+
+}
+
+.auto-style8 {
+    color: #FFFFFF;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+ 
+
+.auto-style9 {
+   
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.19);
+    border: none;
+    border-radius: 50px;
+    height: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    .auto-style9:hover {
+        background-color: #6600cc;
+    }
+.bannerbtn {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.19);
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style :None;
+    width:150px;
+    position:absolute;
+    left:110px;
+    bottom:100px;
+
+
+
+        
+}
+.bannerbtn:hover {
+    background-color: #6600cc;
+}
+/**//**//**//**//**//**//**//**//*z*/
+.conteneur {
+    margin: 0 auto;
+    max-width: 1200px;   
+    /*width: auto;
+    margin: auto;*/
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+/*------- SLIDER CSS ------*/
+
+#sliderAccueil {
+    margin-top: 10px;
+}
+
+#slideshow-wrap {
+    display: block;
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+#slideshow-inner {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: relative;
+}
+
+    #slideshow-inner > ul {
+        list-style: none;
+        height: 100%;
+        width: 500%;
+        overflow: hidden;
+        position: relative;
+        top: 0px;
+        -webkit-transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+        -moz-transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+        -o-transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+        transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+/* --------------- MES SLIDES ---------------- */
+
+/*slides size (background part) */
+.slides {
+    height: 100%;
+    width: 65%;
+}
+
+#slide1 {
+    background: url(Images/phantom-broadway.jpg) no-repeat center center;    
+    background-size: cover;
+}
+
+#slide2 {
+    background: url(Images/madagascar.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#slide3 {
+    background: url(Images/0015c53cccfa1246177662.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#slide4 {
+    background: url(Images/wqrer.jpg) no-repeat center center;
+    background-size: cover;
+}
+/* --------------- /MES SLIDES ---------------- */
+
+#slideshow-inner > ul > li {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+/* On cache les boutons radio d'origine */
+#slideshow-wrap input[type="radio"] {
+    position: absolute;
+    left: 30%;
+    bottom: 15px;
+    visibility: hidden;
+}
+
+/* Pour en créer de nouveaux avec un autre style */
+#slideshow-wrap label:not(.arrows) {
+    z-index: 2;
+    position: absolute;
+    right: 80px;
+    height: 25px;
+    width: 25px;
+    background-color: #0c2437;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    bottom: 25px;
+}
+
+    /* Action du click */
+    #slideshow-wrap label:not(.arrows):active {
+        background-color: grey;
+        bottom: 26px;
+    }
+
+/* Couleur de fond des boutons radio checked */
+#slideshow-wrap input[type="radio"]#button-1:checked ~ label[for="button-1"] {
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+
+#slideshow-wrap input[type="radio"]#button-2:checked ~ label[for="button-2"] {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#slideshow-wrap input[type="radio"]#button-3:checked ~ label[for="button-3"] {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#slideshow-wrap input[type="radio"]#button-4:checked ~ label[for="button-4"] {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Décalage des boutons radio */
+#slideshow-wrap label[for="button-1"]:not(.arrows) {
+    margin-right: 56px;
+}
+
+#slideshow-wrap label[for="button-2"]:not(.arrows) {
+    margin-right: 18px;
+}
+
+#slideshow-wrap label[for="button-3"]:not(.arrows) {
+    margin-right: -18px;
+}
+
+#slideshow-wrap label[for="button-4"]:not(.arrows) {
+    margin-right: -56px;
+}
+
+/* Décalage des images de fond au click (100% = une image) */
+#slideshow-wrap input[type="radio"]#button-1:checked ~ #slideshow-inner > ul {
+    left: 0;
+}
+
+#slideshow-wrap input[type="radio"]#button-2:checked ~ #slideshow-inner > ul {
+    left: -100%;
+}
+
+#slideshow-wrap input[type="radio"]#button-3:checked ~ #slideshow-inner > ul {
+    left: -200%;
+}
+
+#slideshow-wrap input[type="radio"]#button-4:checked ~ #slideshow-inner > ul {
+    left: -300%;
+}
+
+label.arrows {
+    /* Flèche des boutons Gauche / Droite */
+    font-family: "WebSymbolsRegular";
+    /*font-family: "Bahnschrift";*/
+    font-size: 25px;
+    color: rgb(255, 255, 240);
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    display: none;
+    opacity: 0.7;
+    cursor: pointer;
+    background-color: transparent;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
+}
+
+    label.arrows:hover {
+        opacity: 1;
+    }
+
+    label.arrows:active {
+        margin-top: -23px;
+    }
+
+input[type="radio"]#button-1:checked ~ .arrows#arrow-2,
+input[type="radio"]#button-2:checked ~ .arrows#arrow-3,
+input[type="radio"]#button-3:checked ~ .arrows#arrow-4,
+input[type="radio"]#button-4:checked ~ .arrows#arrow-5 {
+    /* Boutons Droite déplacement */
+    padding: 17px 24px;
+    right: 10px;
+    z-index: 2;
+    display: block;
+    border-radius: 45px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+input[type="radio"]#button-2:checked ~ .arrows#arrow-1,
+input[type="radio"]#button-3:checked ~ .arrows#arrow-2,
+input[type="radio"]#button-4:checked ~ .arrows#arrow-3,
+input[type="radio"]#button-5:checked ~ .arrows#arrow-4 {
+    /* Boutons Gauche déplacement */
+    padding: 17px 24px;
+    border-radius: 45px;
+    background: rgba(0, 0, 0, 0.8);
+    left: 10px;
+    z-index: 2;
+    display: block;
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/*----- ONGLET DESCRIPTION SLIDER CSS ------*/
+
+.description {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    overflow: hidden;
+}
+
+    .description .description-text {
+        /*background-color: #183e5c;*/
+        background: linear-gradient(270deg, #6d309f, #2a0945);
+        opacity: 1;
+        height: 100%;
+        padding: 30px 30px 60px 30px;
+        overflow: hidden;
+        position: relative;
+        -webkit-transition: opacity 0.2s;
+        -moz-transition: opacity 0.2s;
+        -o-transition: opacity 0.2s;
+        transition: opacity 0.2s;
+        color: white;
+    }
+
+.description-text h2 {
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.description-text p {
+    line-height: 20px; 
+    font-weight: lighter;
+}
+
+    .description-text p span {
+        background: url(Images/note-2-xxl.png) no-repeat center center;
+        background-size: 20px;
+        vertical-align: middle;
+        display: inline-block;
+        width: 20px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1050px) {
+    .description {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .description {
+        width: 100%;
+    }
+
+        .description .description-text {
+            opacity: 0.65;
+        }
+
+    .slides {
+        width: 100%;
+    }
+}
+
+.perflist {
+    border: none;
+    background-color: transparent;
+    /*box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}

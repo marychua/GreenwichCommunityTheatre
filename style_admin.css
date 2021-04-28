@@ -1,0 +1,120 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right top, #d16ba5, #c95ca7, #be4daa, #b040af, #9e34b5, #9231b1, #852eae, #782baa, #732c9c, #6e2e8e, #682f80, #613073);
+    
+    /*background: linear-gradient(to bottom, #24252a 15%, #6600cc 74%);*/
+    /*background-image: linear-gradient(to right top, #121012, #29172c, #3f1b49, #541e68, #67228b, #6a2790, #6e2b96, #71309b, #663482, #59366b, #4c3755, #3d373f);*/
+}
+.page {
+    position: relative;
+    padding-top:50px;
+    width: 80%;
+    height: 100%;    
+    left: 10%;
+    top: 15%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius:4px;
+    box-shadow:0 0 10px 0 rgba(0,0,0, 0.4);
+}
+
+li, a, button {
+    font-family: Bahnschrift,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    order: 3;
+    margin-left: auto;
+}
+
+nav {
+    order: 1;
+}
+
+.nav_bar {
+    list-style: none;
+    azimuth: center-right;
+}
+
+    .nav_bar li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+
+        .nav_bar li:nth-child(1) {
+            padding: 0 20px 0 0;
+        }
+
+        .nav_bar li a {
+            transition: all 0.3s ease 0s;
+        }
+
+            .nav_bar li a:hover {
+                color: #7913d3;
+            }
+
+.cta {
+    order: 2;
+}
+
+button {
+    padding: 9px;
+    background-color: #6846dd;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+    button:hover {
+        background-color: #b200ff;
+    }
+
+.grid-container {
+    display: grid;
+    grid-gap: 3px;
+    width:90%;
+    background-color: transparent;
+    padding: 5px;
+    align-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+   
+h3 {
+    font-family: "Sacramento" ;
+    font-size: 2em ;
+    font-weight: normal ;
+        
+}
+.stylepnl1 {
+    background-color:white;
+    height:50%;
+}
+
+.complaintgrid {
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.btnreply {
+    padding: 9px;
+    background-color: #867d8d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}

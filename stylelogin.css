@@ -1,0 +1,130 @@
+﻿*{
+    padding:0;
+    margin:0;
+    font-family:Calibri;
+    font-size:medium;
+    
+}
+.hero {
+    height: 100%;
+    width: 100%;
+    /*background-image: url(Images/2479987.jpg);*/
+    background-image: linear-gradient(to bottom, #121012, #181119, #1d121f, #211326, #25132d, #2f163b, #38184a, #421a59, #561d74, #6c1e8f, #831eac, #9c19c8);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    /*background-image: url(Images/Cover1.png);*/
+    /*enable-background:accumulate;*/
+}
+
+.form-box {
+    width: 500px;
+    height: 480px;
+    position: relative;
+    margin: 3% auto;
+    background-color:white ;
+    padding: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #cfcfcf;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor:pointer;
+    background:transparent;
+    border:0;
+    outline:none;
+    position:relative;
+}
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background-image: linear-gradient(to right, #7c19c8, #661996, #4d1967, #33173e, #181119);
+    border-radius: 30px;
+    transition: .5s;
+    color:white;
+}
+
+
+.logininputbox {
+    height:300px;
+    width:430px;
+    position: relative;
+    margin: 7% auto;
+   
+    padding: 10px;
+}
+
+.box {
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border: solid 1px black;
+    padding: 5px;
+}
+input {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.divStyle {
+    width: 200px;
+    height: 70px;
+    margin: 0;
+}
+
+.txtboxStyle {
+    /*position: absolute;*/
+    /*position: -webkit-sticky;*/
+    /*position: sticky;*/
+    /*top: 20px;*/
+    /*left: 130px;
+    top: 60px;*/
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    /*position: relative;*/
+    border-style: none;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color: grey;
+    text-align: center;
+   
+}
+.tablebox {
+   
+    
+    
+}
+.auto-style8 {
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.loginbtn {
+    width: 30%;
+    height: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+   
